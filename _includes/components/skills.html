@@ -1,0 +1,49 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Skills</h2>
+    </div>
+  </div>
+  <div class="im-centered">
+    <div class="row">
+      <h3>Programming languages</h3>
+      {% for item in site.data.skills.prog_languages %}
+      <div class="col-xs-6 col-sm-3">
+        <svg class="pie-progress" data-percentage="{{ item.percentage }}" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"></svg>
+        <br/>
+        <h4>{{ item.name }}</h4>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="row">
+      <h3>Template languages</h3>
+      {% for item in site.data.skills.template_languages %}
+      <div class="col-xs-6 col-sm-3">
+        <svg class="pie-progress" data-percentage="{{ item.percentage }}" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"></svg>
+        <br/>
+        <h4>{{ item.name }}</h4>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="row">
+      <h3>Tools</h3>
+      {% for item in site.data.skills.tools %}
+      <div class="col-xs-6 col-sm-3">
+        <svg class="pie-progress" data-percentage="{{ item.percentage }}" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"></svg>
+        <br/>
+        <h4>{{ item.name }}</h4>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="row">
+      <h3>Services and integrations</h3>
+      {% for item in site.data.skills.services %}
+      <div class="col-xs-6 col-sm-3">
+        <svg class="pie-progress" data-percentage="{{ item.percentage }}" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"></svg>
+        <br/>
+        <h4>{{ item.name }}</h4>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

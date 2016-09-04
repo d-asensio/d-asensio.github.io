@@ -1,0 +1,20 @@
+prog_languages:
+  - { name: 'PHP', percentage: '80' }
+  - { name: 'JavaScript', percentage: '85' }
+  - { name: 'TypeScript', percentage: '45' }
+  - { name: 'C++', percentage: '40' }
+  - { name: 'Java', percentage: '30' }
+
+template_languages:
+  - { name: 'HTML5', percentage: '90' }
+  - { name: 'SVG', percentage: '70' }
+  - { name: 'CSS3', percentage: '50' }
+
+tools:
+  - { name: 'Git', percentage: '70' }
+  - { name: 'PHP UnitTests', percentage: '65' }
+  - { name: 'GitLab', percentage: '50' }
+
+services:
+  - { name: 'Mailchimp', percentage: '30' }
+  - { name: 'AWS', percentage: '15' }

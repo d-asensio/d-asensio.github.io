@@ -1,0 +1,5 @@
+jobs:
+    - { title: 'KoobinEvent', date: 'From July 2014 to now', short-description: 'KoobinEvent is a company based in Girona that markets a software to manage events and sell tickets online.', description: 'As a full-stack developer I do multiple tasks and use different programming languages such as PHP, JavaScript, Java, etc. (some of them listed below). My tasks goes from developing new functionalities or fixing issues to do customer support.' }
+studies:
+    - { title: 'Computer Engineering Degree', date: 'Fom September 2013 to June 2015', short-description: 'University of Girona', description: 'I take the first two years of my degree at the University of Girona.' }
+    - { title: 'Computer Engineering Degree', date: 'Fom September 2015 to now', short-description: 'Open University of Catalonia', description: 'Currently I&#39;m finishing my degree at the Open University of Catalonia.' }
