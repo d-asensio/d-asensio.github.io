@@ -1,0 +1,3 @@
+ - { name: 'Spanish', listening: 'C2', reading: 'C2', spoken_interaction: 'C2', spoken_production: 'C2', writing: 'C2', general_description: 'Native or bilingual' }
+ - { name: 'Catalan', listening: 'C2', reading: 'C2', spoken_interaction: 'C2', spoken_production: 'C2', writing: 'C2', general_description: 'Native or bilingual' }
+ - { name: 'English', listening: 'B2', reading: 'B2', spoken_interaction: 'B1', spoken_production: 'B1', writing: 'B2', general_description: 'Basic professional' }

@@ -1,0 +1,104 @@
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Languages</h2>
+    </div>
+  </div>
+  <br/>
+  <div class="im-centered">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <div class="panel panel-default">
+          <table class="table table-striped big-table">
+            <thead>
+              <tr>
+                <td>
+                </td>
+                <td colspan="2">
+                  UNDERSTANDING
+                </td>
+                <td colspan="2">
+                  SPEAKING
+                </td>
+                <td>
+                  WRITING
+                </td>
+              </tr>
+              <tr>
+                <td>
+                </td>
+                <td>
+                  Listening
+                </td>
+                <td>
+                  Reading
+                </td>
+                <td>
+                  Spoken interaction
+                </td>
+                <td>
+                  Spoken production
+                </td>
+                <td>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              {% for language in site.data.languages %}
+              <tr>
+                <td>
+                  {{ language.name }}
+                </td>
+                <td>
+                  {{ language.listening }}
+                </td>
+                <td>
+                  {{ language.reading }}
+                </td>
+                <td>
+                  {{ language.spoken_interaction }}
+                </td>
+                <td>
+                  {{ language.spoken_production }}
+                </td>
+                <td>
+                  {{ language.writing }}
+                </td>
+              <tr>
+              {% endfor %}
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="6">
+                  <span>* All these levels have been set according to the <a href="http://www.coe.int/t/dg4/linguistic/cadre1_en.asp" target="_blank">Common European Framework of Reference for Languages.</a></span>
+                </td>
+              </tr>
+            </tfoot>
+          </table>
+          <table class="table table-striped small-table">
+            <tfoot>
+              <tr>
+                <tbody>
+                  {% for language in site.data.languages %}
+                  <tr>
+                    <td>
+                      {{ language.name }}
+                    </td>
+                    <td>
+                      {{ language.general_description }}
+                    </td>
+                  <tr>
+                  {% endfor %}
+                </tbody>
+                <td colspan="6">
+                  <span><a href="http://www.coe.int/t/dg4/linguistic/cadre1_en.asp" target="_blank">Common European Framework of Reference for Languages.</a></span>
+                </td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

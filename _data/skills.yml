@@ -1,0 +1,29 @@
+prog_languages:
+  - { name: 'JavaScript', percentage: '85', color: '#A7DD7C' }
+  - { name: 'PHP', percentage: '80', color: '#A7DD7C' }
+  - { name: 'TypeScript', percentage: '55', color: '#A7DD7C' }
+  - { name: 'C++', percentage: '40', color: '#A7DD7C' }
+  - { name: 'Java', percentage: '40', color: '#A7DD7C' }
+
+databases:
+  - { name: 'MySQL', percentage: '70', color: '#FF566B' }
+  - { name: 'SQLite', percentage: '20', color: '#FF566B' }
+
+template_languages:
+  - { name: 'HTML5', percentage: '90', color: '#EDCB68' }
+  - { name: 'SVG', percentage: '70', color: '#EDCB68' }
+  - { name: 'CSS3', percentage: '50', color: '#EDCB68' }
+  - { name: 'Sass', percentage: '30', color: '#EDCB68' }
+
+vcs:
+  - { name: 'Git', percentage: '75', color: '#FF7465' }
+  - { name: 'Subversion', percentage: '40', color: '#FF7465' }
+
+tools:
+  - { name: 'Zendesk', percentage: '95', color: '#53859F' }
+  - { name: 'PHPStrom', percentage: '70', color: '#53859F' }
+  - { name: 'Jira', percentage: '65', color: '#53859F' }
+
+services:
+  - { name: 'Amazon Web Services', percentage: '35', color: '#F69A92' }
+  - { name: 'Mailchimp', percentage: '30', color: '#F69A92' }

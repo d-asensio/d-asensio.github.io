@@ -1,0 +1,9 @@
+# Site Settings
+title: 'davidasens.io'
+description: 'My personal website'
+url: 'http://davidasens.io/'
+footer_text: '\No newline at end of file'
+
+# Admin Settings
+admin_name: 'David Asensio Cañas'
+admin_email: 'david.asensio@icloud.com'

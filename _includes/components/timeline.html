@@ -1,0 +1,55 @@
+{% assign sorted_items = (site.timeline | sort: 'order') %}
+<div class="container">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Experience</h2>
+      <ul class="timeline">
+          {% for item in sorted_items reversed %}
+            {% if item.category == 'jobs' %}
+            <li>
+              <div class="timeline-badge info"><i class="fa fa-briefcase"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-top">
+                  <h6 class="timeline-date">{{ item.period }}</h6>
+                </div>
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">{{ item.title }}</h4>
+                </div>
+                <div class="timeline-body">
+                  <p>{{ item.short-description }}</p>
+                  <p>{{ item.content }}</p>
+                </div>
+              </div>
+            </li>
+            {% endif %}
+          {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Education</h2>
+      <ul class="timeline">
+          {% for item in sorted_items reversed %}
+            {% if item.category == 'studies' %}
+            <li>
+              <div class="timeline-badge warning"><i class="fa fa-graduation-cap"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-top">
+                  <h6 class="timeline-date">{{ item.period }}</h6>
+                </div>
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">{{ item.title }}</h4>
+                </div>
+                <div class="timeline-body">
+                  <p>{{ item.short-description }}</p>
+                  <p>{{ item.content }}</p>
+                </div>
+              </div>
+            </li>
+            {% endif %}
+          {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
